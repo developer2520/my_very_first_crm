@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400
+
+}
+body {
+    
+}
+.sidebar {
+    background-color: #0E86E9;
+    width: 220px;
+    height: 100vh;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    
+}
+.sidebar .logo {
+    display: flex;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+
+}
+.sidebar .logo i {
+    font-size: 40px;
+}
+.sidebar .logo h4 {
+    font-size: 40px;
+}
+.sidebar .sides .side {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.sidebar .sides  {
+    margin-top: 3rem;
+}
+.sidebar .sides .side i {
+    font-size: 22px;
+}
+.sidebar .sides .side h1 {
+    font-size: 1.7rem;
+}
