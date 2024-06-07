@@ -6,13 +6,6 @@ body {
 .main {
   display: flex;
 }
-.top {
-  display: flex;
-  padding: 1rem;
-  width: 1200px;
-  background-color: gray;
-  justify-content: space-around;
-}
 
 .statistics   {
 
@@ -36,14 +29,31 @@ body {
 }
 .stat:hover {
     transform: scale(1.090);
-    background-color: rgba(196, 202, 243, 0.156);
+    background-color: #FDFEFE;
 }
 .main_section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    
     
 } 
-.dark_mode {
-    width: 40px;
-    height: 40px;
+.loaderNumber {
+  background-color: rgba(128, 128, 128, 0.697); 
+  width: 30px;
+  height: 30px;
+  animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: rgba(128, 128, 128, 0.697);
+  }
+  50% {
+    background-color: rgba(0, 157, 255, 0.244); /* Change to desired color */
+  }
+  100% {
+    background-color: rgba(128, 128, 128, 0.697);
+  }
 }

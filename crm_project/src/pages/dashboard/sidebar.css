@@ -13,7 +13,7 @@ body {
     height: 100vh;
     color: white;
     padding: 1rem;
-    position: sticky;
+    
     
 }
 .sidebar .logo {
@@ -47,4 +47,8 @@ body {
 }
 .sidebar .sides .side h1 {
     font-size: 1.7rem;
+}
+.link {
+    color: white;
+    text-decoration: none;
 }

@@ -1,0 +1,29 @@
+.top {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    width: 81.3%;
+    background-color: #ebe5e5;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .top h1 {
+    font-weight: 500;
+  }
+  .top h2 {
+    color: dodgerblue;
+    font-weight: 500;
+  }
+  .top .dark_mode {
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    
+  }
+  .top .dark_mode i {
+    font-size: 20px;
+  }

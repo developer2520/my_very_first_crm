@@ -48,3 +48,6 @@ body {
 .signInButton:hover {
     background-color: dodgerblue;
 }
+.error {
+    color: red;
+}

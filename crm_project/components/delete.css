@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.deleteCourse {
+    width: 400px;
+    height: 200px;
+
+    position: fixed;
+    padding: 1rem;
+    border-radius: 1rem;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    color: black;
+}
+h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.buttons button {
+    width: 50%;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    border-radius: 3px;
+    transition: 0.1s ease;
+}
+.buttons button:hover {
+    transform: scale(103%);
+}
+.buttons button:nth-child(1) {
+    background-color: dodgerblue;
+}
+.buttons button:nth-child(2) {
+    background-color: red;
+}
+
+.Toastify__close-button {
+    width: 16px; /* Set the width of the close button */
+    height: 16px; /* Set the height of the close button */
+    font-size: 12px; /* Adjust the font size */
+    line-height: 16px; /* Adjust the line height */
+    padding: 2px; /* Adjust padding to make it smaller */
+}
